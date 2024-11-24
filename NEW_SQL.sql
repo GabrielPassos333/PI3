@@ -148,11 +148,4 @@ INSERT INTO RESERVA (COD_AGENDA_SALA, COD_TURMA, MATRICULA_SECRETARIA, MANUTENCA
 INSERT INTO RESERVA (COD_AGENDA_SALA, COD_TURMA, MATRICULA_SECRETARIA, MANUTENCAO) VALUES (5, 5, 5, 1);
 select * from RESERVA
 
-select * from AGENDA_SALA
 
-delete from reserva where COD_AGENDA_SALA = 3
-select * from PROFESSOR
-select * from turma
-
---n�o deleta pq usa na turma
-delete from PROFESSOR where MATRICULA_PROFESSOR = 2 
