@@ -1,48 +1,56 @@
-INSERT INTO CURSO (NOME_CURSO) VALUES ('Engenharia');
-INSERT INTO CURSO (NOME_CURSO) VALUES ('Matemática');
-INSERT INTO CURSO (NOME_CURSO) VALUES ('Computação');
+### Sistema de Reserva de Salas
 
-INSERT INTO DISCIPLINA (NOME_DISCIPLINA) VALUES ('Cálculo');
-INSERT INTO DISCIPLINA (NOME_DISCIPLINA) VALUES ('Física');
-INSERT INTO DISCIPLINA (NOME_DISCIPLINA) VALUES ('Programação');
+![FATEC Indaiatuba](https://fatecid.com.br/cursos/img/logo.png)
 
-INSERT INTO PROFESSOR (NOME_PROFESSOR) VALUES ('Dr. José Silva');
-INSERT INTO PROFESSOR (NOME_PROFESSOR) VALUES ('Dra. Maria Souza');
-INSERT INTO PROFESSOR (NOME_PROFESSOR) VALUES ('Dr. Paulo Ribeiro');
+Este projeto é um sistema de reserva de salas para faculdades e escolas de ensino básico. A aplicação é composta por uma API desenvolvida em Java e um front-end em HTML, CSS e JavaScript.
 
-INSERT INTO CURRICULO (SEMESTRE_GRADE, COD_DISCIPLINA, COD_CURSO) VALUES (1, 1, 1);
-INSERT INTO CURRICULO (SEMESTRE_GRADE, COD_DISCIPLINA, COD_CURSO) VALUES (2, 2, 1);
-INSERT INTO CURRICULO (SEMESTRE_GRADE, COD_DISCIPLINA, COD_CURSO) VALUES (1, 3, 2);
+#### Alunos
 
-INSERT INTO SECRETARIA (NOME_SECRETARIA) VALUES ('Ana Mendes');
-INSERT INTO SECRETARIA (NOME_SECRETARIA) VALUES ('Carlos Ferreira');
-INSERT INTO SECRETARIA (NOME_SECRETARIA) VALUES ('Luciana Barbosa');
-INSERT INTO SECRETARIA (NOME_SECRETARIA) VALUES ('João Silva');
-INSERT INTO SECRETARIA (NOME_SECRETARIA) VALUES ('Patrícia Costa');
+- ANDRÉIA DOMINGOS SERAFIM
+- GABRIEL CRUZ DOS PASSOS
+- MILENA OLIVEIRA ARANTES
+- NÚBIA CAROLINE RAMOS CISCATI
 
-INSERT INTO SALA (TIPO, NOME_SALA, DESCRICAO, CAPACIDADE) VALUES 
-('Aula', 'Sala 101', 'Sala de aula para cursos teóricos.', 30);
-INSERT INTO SALA (TIPO, NOME_SALA, DESCRICAO, CAPACIDADE) VALUES 
-('Laboratório', 'Lab 202', 'Laboratório com computadores para aulas práticas.', 25);
-INSERT INTO SALA (TIPO, NOME_SALA, DESCRICAO, CAPACIDADE) VALUES 
-('Auditório', 'Auditório Principal', 'Auditório para eventos e palestras.', 100);
-INSERT INTO SALA (TIPO, NOME_SALA, DESCRICAO, CAPACIDADE) VALUES 
-('Aula', 'Sala de Aula', 'Sala para reuniões administrativas.', 10);
-INSERT INTO SALA (TIPO, NOME_SALA, DESCRICAO, CAPACIDADE) VALUES 
-('Aula', 'Sala de Aula', 'Sala de aula', 15);
+#### Curso
 
-INSERT INTO TURMA (COD_CURRICULO, MATRICULA_PROFESSOR, SEMESTRE, ANO) VALUES (1, 1, 1, 2023);
-INSERT INTO TURMA (COD_CURRICULO, MATRICULA_PROFESSOR, SEMESTRE, ANO) VALUES (2, 2, 2, 2023);
-INSERT INTO TURMA (COD_CURRICULO, MATRICULA_PROFESSOR, SEMESTRE, ANO) VALUES (3, 3, 1, 2023);
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Semestre:** 3 Semestre
+- **Matéria:** Programação Orientada a Objetos
+- **Faculdade:** FATEC Indaiatuba
 
-INSERT INTO AGENDA (DATA_AGENDADA, HORA) VALUES ('2023-10-05', '08:00:00');
-INSERT INTO AGENDA (DATA_AGENDADA, HORA) VALUES ('2023-10-06', '10:00:00');
-INSERT INTO AGENDA (DATA_AGENDADA, HORA) VALUES ('2023-10-07', '14:00:00');
+#### Funcionalidades
 
-INSERT INTO AGENDA_SALA (STATUS, COD_SALA, COD_AGENDA) VALUES ('Reservado', 1, 1);
-INSERT INTO AGENDA_SALA (STATUS, COD_SALA, COD_AGENDA) VALUES ('Disponível', 2, 2);
-INSERT INTO AGENDA_SALA (STATUS, COD_SALA, COD_AGENDA) VALUES ('Reservado', 3, 3);
+- Login de usuários
+- Reserva de salas
+- Visualização de reservas
+- Cancelamento de reservas
 
-INSERT INTO RESERVA (COD_AGENDA_SALA, COD_TURMA, MATRICULA_SECRETARIA, MANUTENCAO) VALUES (1, 1, 1, 0);
-INSERT INTO RESERVA (COD_AGENDA_SALA, COD_TURMA, MATRICULA_SECRETARIA, MANUTENCAO) VALUES (2, 2, 2, 1);
-INSERT INTO RESERVA (COD_AGENDA_SALA, COD_TURMA, MATRICULA_SECRETARIA, MANUTENCAO) VALUES (3, 3, 1, 0);
+#### Tecnologias Utilizadas
+
+- **Back-end:** Java (Spring Boot)
+- **Front-end:** HTML, CSS, JavaScript
+- **Banco de Dados:** H2
+- **Hospedagem da API:** Render
+- **Containerização:** Docker
+
+#### Tutorial para Inserir Dados no H2
+
+1. Acesse o link: [Console H2](https://vamosvencer.onrender.com/h2)
+2. Utilize os dados mostrados na imagem abaixo para fazer o login:
+   
+   ![Login H2](h2_login.png)
+
+3. Após o login, para inserir os dados, copie o conteúdo do arquivo [`inserir_dados.txt`](inserir_dados.txt) e cole no console do H2.
+4. Veja a imagem abaixo para referência:
+
+   ![Inserir Dados](h2_inserir.png)
+
+5. Clique em "Run" para executar os comandos e inserir os dados no banco de dados.
+
+#### Acesso
+
+A aplicação pode ser acessada online através do link: [Sistema de Reserva de Salas](https://milena-arantes.github.io/reservas.github.io/)
+
+#### Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
