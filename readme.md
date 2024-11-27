@@ -35,12 +35,13 @@ Este projeto é um sistema de reserva de salas para faculdades e escolas de ensi
 
 #### Tutorial para Inserir Dados no H2
 
-1. Acesse o link: [Console H2](https://vamosvencer.onrender.com/h2)
+1. Acesse o link: [Console H2](https://vamosvencer.onrender.com/h2). <br>
+**Observação:** O sistema reinicia após 15 minutos de inatividade, por isso pode demorar alguns segundos para reiniciar e o site abrir.
 2. Utilize os dados mostrados na imagem abaixo para fazer o login:
    
    ![Login H2](h2_login.png)
 
-3. Após o login, para inserir os dados, copie o conteúdo do arquivo [`inserir_dados.txt`](inserir_dados.txt) e cole no console do H2.
+3. Após o login no Banco de Dados online, para inserir os dados, copie o conteúdo do arquivo [`inserir_dados.txt`](inserir_dados.txt) e cole no console do H2.
 4. Veja a imagem abaixo para referência:
 
    ![Inserir Dados](h2_inserir.png)
@@ -49,7 +50,12 @@ Este projeto é um sistema de reserva de salas para faculdades e escolas de ensi
 
 #### Acesso
 
-A aplicação pode ser acessada online através do link: [Sistema de Reserva de Salas](https://milena-arantes.github.io/reservas.github.io/)
+A aplicação pode ser acessada online através do link: [Sistema de Reserva de Salas](https://milena-arantes.github.io/BookMe/index.html)
+
+A aplicação pode ser acessada online através do link: [Sistema de Reserva de Salas](https://milena-arantes.github.io/BookMe/index.html)
+
+- **Usuário:** admin1
+- **Senha:** senha1234
 
 #### Licença
 
