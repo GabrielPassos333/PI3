@@ -1,6 +1,6 @@
 ### Sistema de Reserva de Salas
 
-![FATEC Indaiatuba](https://fatecid.com.br/cursos/img/logo.png)
+![FATEC Indaiatuba]((https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYFnU2cllLqt9-yIZOVUbTwPq71EywdeUcKg&s))
 
 Este projeto é um sistema de reserva de salas para faculdades e escolas de ensino básico. A aplicação é composta por uma API desenvolvida em Java e um front-end em HTML, CSS e JavaScript.
 
