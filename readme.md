@@ -52,20 +52,15 @@ Este projeto é um sistema de reserva de salas para faculdades e escolas de ensi
 
 A aplicação pode ser acessada online através do link: [Sistema de Reserva de Salas](https://milena-arantes.github.io/BookMe/index.html)
 
-- **Usuário:** admin
-- **Senha:** admin
+- **Usuário:** admin - **Senha:** admin
 
-- **Usuário:** carlosf
-- **Senha:** senha123
+- **Usuário:** carlosf - **Senha:** senha123
 
-- **Usuário:** lucianab
-- **Senha:** senha456
+- **Usuário:** lucianab - **Senha:** senha456
 
-- **Usuário:** joaos
-- **Senha:** senha789
+- **Usuário:** joaos - **Senha:** senha789
 
-- **Usuário:** 222222
-- **Senha:** 1122
+- **Usuário:** 222222 - **Senha:** 1122
 
 #### Licença
 
