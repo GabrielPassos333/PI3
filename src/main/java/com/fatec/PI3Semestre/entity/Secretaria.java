@@ -29,6 +29,16 @@ public class Secretaria {
      */
     private String emailSecretaria;
 
+    /**
+     * Usuario da secretaria
+     */
+    private String usuario;
+
+    /**
+     * Senha da secretaria
+     */
+    private String senha;
+
     // Getters e Setters
     public Integer getMatriculaSecretaria() {
         return matriculaSecretaria;
@@ -52,5 +62,21 @@ public class Secretaria {
 
     public void setEmailSecretaria(String emailSecretaria) {
         this.emailSecretaria = emailSecretaria;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }
