@@ -62,6 +62,3 @@ A aplicação pode ser acessada online através do link: [Sistema de Reserva de 
 
 - **Usuário:** 222222 - **Senha:** 1122
 
-#### Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
