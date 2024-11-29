@@ -1,10 +1,10 @@
-package com.fatec.vamosVencer;
+package com.fatec.PI3Semestre;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VamosVencerApplicationTests {
+class PI3SemestreApplicationTests {
 
 	@Test
 	void contextLoads() {
